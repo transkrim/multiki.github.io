@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--<link rel="stylesheet" href="style.css">-->
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PythonBasic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<!--<body style="background-color: #4855a1;">
+    <div class="content">
+        <div>
+            <h1 class="head">Python</h1>
+            <img class="sizeImg" src="file:///C:\Users\transkrim\Desktop\STUDY\Мультимедиа\Course\images\python.png" alt="Logo python">            
+        </div>
+        <div class="content2">
+            
+        </div>
+    </div>
+</body>-->
+<body class="bg">
+  <script>
+    function next_page(val){
+      document.location.href = val;   
+    }
+  </script>
+    <div class="container py-3" style="max-width: 55em;">
+      <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <a href="file:///C:/Users/transkrim/Desktop/STUDY/Мультимедиа/Course/book_python.html" class="d-flex align-items-center text-dark text-decoration-none">
+            <img style="height: 15%; width: 15%;"; src="file:///C:\Users\transkrim\Desktop\STUDY\Мультимедиа\Course\images\python.png" alt="Logo python">            
+            
+          </a>
+    
+          <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            Python
+          </nav>
+        </div>
+    
+      </header>
+      <div class="pricing-header p-3 pb-md-4 mx-auto" style="background-color: white; border-radius: 15px; ">
+        <h4 style="text-align: center; color: black;">Раздел 2. Функции</h4>
+        <h1 class="display-4 fw-normal" style="text-align: center; color: black;">Порядок выполнения</h1><br>
+        <p style="color: black;">Чтобы убедиться, что функция определена перед ее первым использованием,
+            нужно знать <b>порядок выполнения инструкций (flow of execution)*</b>.<br>
+            Выполнение программы всегда начинается с первой инструкции. Далее
+            инструкции выполняются по одной, сверху вниз.<br>
+            Определения функций в коде программы только создают объект функции. Инструкции, находящиеся в теле функции, не выполняются, пока она
+            не будет вызвана.<br>
+            Вызов функции похож на небольшую остановку. Вместо перехода к следующей инструкции интерпретатор переходит к телу функции, выполняет
+            инструкции там, а затем возвращается, чтобы продолжить с того места, где
+            остановился.<br>
+            Это звучит просто, пока вы не узнаете, что одна функция может вызывать другую. В середине одной функции программе может потребоваться
+            выполнить инструкции другой функции. Затем при запуске этой новой
+            функции программе может потребоваться запустить еще одну функцию!<br>
+            К счастью, Python хорошо отслеживает, где находится интерпретатор,
+            поэтому каждый раз, когда функция завершает работу, интерпретатор
+            возвращается туда, где она остановилась в вызывающей ее функции. Когда
+            он доходит до конца программы, она завершает работу.<br>
+            Таким образом, при изучении кода программы необходимо следить
+            за порядком выполнения инструкций, так как он не всегда происходит
+            сверху вниз.</p>
+          <div>
+            <button onclick="next_page('python11.html');" type="button" class="w-100 btn btn-lg btn-outline-primary" style="color: black; border-color: white; max-width: 15em;"><img class="next_page" src="https://www.svgrepo.com/show/441078/arrow-left.svg" alt="">Предыдущая страница</button>
+            <button onclick="next_page('book_python.html');" type="button" class="w-100 btn btn-lg btn-outline-primary" style="color: black; border-color: white; max-width: 20em;">Вернуться к разделам<img class="next_page" src="https://www.svgrepo.com/show/441580/arrow-down.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+    
+    
+        
+      
+    
+    </body>
+</html>
